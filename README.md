@@ -10,5 +10,14 @@ In my work in Geographic Information Systems, oftentimes I cannot find datasets 
 2. Works only with shapefiles.
 3. Requires gdal and ogr packages (https://gdal.org/download.html).
 
+# Program Overview/Directions
+1. Run the weather_data.py in your interpreter of choice
+2. It will prompt you for the path of your Shapefile. Copy/paste the file path. 
+3. The program will create three attributes in your shapefile and populate values from OpenWeatherAPI 
+
 # Notes
 1. The program adds the data directly to your shapefile, meaning the change is permanent unless you directly remove the added data. It may help to create a copy of your shapefile before running the program. 
+2. Repeated requests may not work, as I only have a free license with OpenWeather. 
+
+#Known Issues
+1. There seems to be a problem with my API key. You may have to sign up with OpenWeather and receive your own key. 
