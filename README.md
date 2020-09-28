@@ -19,5 +19,5 @@ In my work in Geographic Information Systems, oftentimes I cannot find datasets 
 1. The program adds the data directly to your shapefile, meaning the change is permanent unless you directly remove the added data. It may help to create a copy of your shapefile before running the program. 
 2. Repeated requests may not work, as I only have a free license with OpenWeather. 
 
-#Known Issues
+# Known Issues
 1. There seems to be a problem with my API key. You may have to sign up with OpenWeather and receive your own key. 
